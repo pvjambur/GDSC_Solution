@@ -101,19 +101,19 @@ AURA_AI
    cd admin
    npm install
    
-   cd ../adminbackend
+   cd ../admin_backend
    npm install
    
-   cd ../Backend/auraai
+   cd ../general_backend/auraai
    npm install
    
    cd ../backend
    npm install
    
-   cd ../../hackthon
+   cd ../../landing_page
    npm install
    
-   cd ../Manish_exam
+   cd ../exam_page
    npm install
    ```
 
@@ -122,22 +122,22 @@ AURA_AI
 - Run `npm run dev` in the following directories:
   ```bash
   admin
-  adminbackend
-  Backend/auraai
-  Backend/backend
-  hackthon
+  admin_backend
+  general_backend/auraai
+  general_backend/backend
+  landing_page
   ```
 
 - Run `npm start` specifically in:
   ```bash
-  Manish_exam
+  exam_page
   ```
 
 ---
 
 ## 🖥️ Using the Application UI:
 
-- After servers are running, open the frontend UI (`Manish_exam`) in a web browser:
+- After servers are running, open the frontend UI (`exam_page`) in a web browser:
   ```
   http://localhost:3000
   ```
